@@ -1,6 +1,7 @@
 class ShowsController < ApplicationController
 
   def index
+    @shows = Show.all.order("date ASC")
   end
 
   def new
@@ -26,7 +27,7 @@ class ShowsController < ApplicationController
   private
 
   def show_params
-    params.require(:show).permit(:date, :time, :url, :image_url, :price)
+    params.require(:show).permit(:date, :location, :price, :url, :image_url, :venue_url, :description)
   end
 
 end

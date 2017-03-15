@@ -14,48 +14,133 @@
  *= require_self
  */
 
- .main {
-   background: black;
-   background-size: 50px;
-   position: absolute;
-   z-index: -1;
-   top: 50px;
-   min-width: 100%;
-   min-height: 100%;
- }
+  .main {
+    background-image: url('Roofs_dartboi.jpg');
+    background-position: 50% 50%;
+    background-size: 1920px 1200px;
+    height: 100%;
+    width: 100%;
+    min-height: 1000px;
+  }
 
- .nav-bar{
-   background: black;
-   padding-top: 15px;
-   padding-bottom: 15px;
-   position: fixed;
-   min-width: 100%;
-   border-bottom: white 10px;
- }
+  .nav-bar{
+    background: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    min-width: 100%;
+    border-bottom: white 10px;
+    top: 0px;
+    z-index: 1;
+  }
 
   .nav-link{
     min-width: 19.6%;
     display: inline-block;
     text-align: center;
   }
- .nav-link a{
-   font-family: 'Bree Serif', serif;
-   text-decoration: none;
-   color: white;
-   font-weight: bold;
-   font-size: 30px;
- }
+
+  .nav-link a{
+    font-family: 'Bree Serif', serif;
+    -webkit-text-stroke: 0.8px lightgreen;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
 
   #news{
     width: 60%;
     position: relative;
     font-family: 'Bree Serif', serif;
     color: black;
-    -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 2px lightgreen;
     font-size: 40px;
     margin: auto;
+    top: 20px;
   }
 
-  #news h1{
+  .page-title{
+    font-family: 'Bree Serif', serif;
+    -webkit-text-stroke: 2px lightgreen;
+    font-size: 40px;
     text-align: center;
+    color: black;
   }
+
+  .show-article{
+    -webkit-text-stroke: 0.8px lightgreen;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3%;
+    padding: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    position: relative;
+  }
+
+  .show-article img{
+    width: 150px;
+    border: white 2px solid;
+    border-radius: 5%;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+  }
+
+  .show-article h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+  }
+
+  .show-article a{
+    font-family: 'Bree Serif', serif;
+    -webkit-text-stroke: 0.8px lightgreen;
+    text-decoration: underline white;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .show-description, .show-location, .show-price {
+    font-size: 25px;
+    font-family: 'Bree Serif', serif;
+    -webkit-text-stroke: 0.8px lightgreen;
+  }
+
+  .date{
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+    -webkit-text-stroke: 0.8px lightgreen;
+  }
+
+  form#new_show {
+    position: absolute;
+    display: inline-block;
+    margin-left: 43%;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3%;
+    padding: 30px;
+}
+
+.new-show-field{
+  padding-bottom: 10px;
+}
+
+#shows{
+  position: relative;
+  width:80%;
+  margin: auto;
+  top:20px;
+}
+
+#shows img{
+  width: 250px;
+  border: white 2px solid;
+  border-radius: 5%;
+  position: absolute;
+  right: 20px;
+}

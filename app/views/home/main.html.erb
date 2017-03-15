@@ -1,6 +1,33 @@
 <div id="news">
-  <h1>News</h1>
 
-  
+  <div class="page-title">
+    <h1>News</h1>
+  </div>
+
+  <div class="show-article">
+    <% if Show.any? %>
+      <h2>We have a show coming up real soon..</h2>
+      <div class="show-listing">
+        <div class="date">
+          <%= @show.date.strftime("%A, %B %e, %Y") %>
+        </div>
+        <div class="show-location">
+          <%= @show.location %>
+        </div>
+        <div class="show-description">
+          <%= @show.description %>
+        </div>
+        <div class="show-price">
+          <%= @show.price %>
+        </div>
+        <div class="location-image">
+          <%= link_to image_tag(@show.image_url), @show.venue_url %>
+        </div>
+        <div class="show-link">
+          <%= link_to "Check it out", @show.event_url %>
+        </div>
+      </div>
+    <% end %>
+  </div>
 
 <div>
