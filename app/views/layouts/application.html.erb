@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dartboi</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="nav-bar">
+      <div class="nav-link">
+        <%= link_to "Home", root_path %>
+      </div>
+      <div class="nav-link">
+        <%= link_to "Shows", shows_path %>
+      </div>
+      <div class="nav-link">
+        <%= link_to "Music", music_path %>
+      </div>
+      <div class="nav-link">
+        <%= link_to "Contact Us", new_contact_path %>
+      </div>
+      <div class="nav-link">
+        <%= link_to "About", about_path %>
+      </div>
+    </div>
+
+    <div class="main">
+      <%= yield %>
+    </div>
+
+  </body>
+</html>

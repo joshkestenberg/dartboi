@@ -1,0 +1,25 @@
+<div id="new-show-form">
+  <%=form_for @show do |f| %>
+    <div class="new-show-field">
+      <%= f.text_area :description %>
+    </div>
+    <div class="new-show-field">
+      <%= f.date_field :date %>
+    </div>
+    <div class="new-show-field">
+      <%= f.text_field :location, placeholder: "location" %>
+    </div>
+    <div class="new-show-field">
+      <%= f.text_field :price, placeholder: "price" %>
+    </div>
+    <div class="new-show-field">
+      <%= f.text_field :url, placeholder: "url" %>
+    </div>
+    <div class="new-show-field">
+      <%= f.text_field :image_url, placeholder: "image url" %>
+    </div>
+    <div class="new-show-submit">
+      <%= f.submit %>
+    </div>
+  <% end %>
+</div>
