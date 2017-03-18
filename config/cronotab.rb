@@ -15,3 +15,5 @@
 #
 
 Crono.perform(Show).every 1.day, at: {hour: 4}
+
+Crono.perform(Contact).every 1.day, at: {hour: 4}
