@@ -5,7 +5,11 @@ class ShowsController < ApplicationController
   end
 
   def new
-    @show = Show.new
+    if current_user
+      @show = Show.new
+    else
+      redirect_to root_path
+    end
   end
 
   def create

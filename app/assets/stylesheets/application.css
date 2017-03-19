@@ -157,3 +157,15 @@ textarea {
 form#new_contact {
   margin-left: 37.2%;
 }
+
+.admin-nav {
+  background: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed;
+  min-width: 100%;
+  border-bottom: white 10px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+}

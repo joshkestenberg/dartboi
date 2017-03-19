@@ -32,5 +32,17 @@
       <%= yield %>
     </div>
 
+    <% if current_user %>
+      <footer class="admin-nav">
+        <div class="nav-link">
+          <%= link_to "New Show", new_show_path %>
+        </div>
+        <div class="nav-link">
+          <%= link_to "Log Out", sessions_path, method: "delete" %>
+        </div>
+      </footer>
+    <% end %>
+
+
   </body>
 </html>

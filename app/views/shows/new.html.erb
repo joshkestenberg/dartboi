@@ -1,28 +1,28 @@
-<div id="new-show-form">
-  <%=form_for @show do |f| %>
-    <div class="form-field">
-      <%= f.text_area :description, placeholder: "description" %>
-    </div>
-    <div class="form-field">
-      <%= f.date_field :date %>
-    </div>
-    <div class="form-field">
-      <%= f.text_field :location, placeholder: "location" %>
-    </div>
-    <div class="form-field">
-      <%= f.text_field :price, placeholder: "price" %>
-    </div>
-    <div class="form-field">
-      <%= f.text_field :event_url, placeholder: "event url" %>
-    </div>
-    <div class="form-field">
-      <%= f.text_field :image_url, placeholder: "image url" %>
-    </div>
-    <div class="form-field">
-      <%= f.text_field :venue_url, placeholder: "venue url" %>
-    </div>
-    <div class="form-submit">
-      <%= f.submit %>
-    </div>
-  <% end %>
-</div>
+  <div id="new-show-form">
+    <%=form_for @show do |f| %>
+      <div class="form-field">
+        <%= f.text_area :description, placeholder: "description" %>
+      </div>
+      <div class="form-field">
+        <%= f.date_field :date %>
+      </div>
+      <div class="form-field">
+        <%= f.text_field :location, placeholder: "location" %>
+      </div>
+      <div class="form-field">
+        <%= f.text_field :price, placeholder: "price" %>
+      </div>
+      <div class="form-field">
+        <%= f.text_field :event_url, placeholder: "event url" %>
+      </div>
+      <div class="form-field">
+        <%= f.text_field :image_url, placeholder: "image url" %>
+      </div>
+      <div class="form-field">
+        <%= f.text_field :venue_url, placeholder: "venue url" %>
+      </div>
+      <div class="form-submit">
+        <%= f.submit %>
+      </div>
+    <% end %>
+  </div>

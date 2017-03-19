@@ -4,5 +4,9 @@ Rails.application.routes.draw do
   post '/contacts', to: 'contacts#create'
   get '/about', to: 'home#about'
   get '/music', to: 'home#music'
+  get '/sessions/new', to: 'sessions#new'
+  post '/sessions', to: 'sessions#create'
+  delete '/sessions', to: 'sessions#destroy'
+
   root to: 'home#main'
 end
