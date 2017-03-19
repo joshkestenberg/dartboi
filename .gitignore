@@ -17,8 +17,8 @@
 !/log/.keep
 !/tmp/.keep
 
+#Ignore .yml
+*.yml
+
 # Ignore Byebug command history file.
 .byebug_history
-
-# Ignore secrets.yml
-*.yml

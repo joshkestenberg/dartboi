@@ -7,6 +7,10 @@ end
 
 # gem 'daemons'
 
+gem 'figaro'
+
+gem 'sorcery'
+
 gem 'foreman'
 
 gem 'crono'
