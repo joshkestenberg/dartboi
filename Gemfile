@@ -9,7 +9,7 @@ end
 
 gem 'figaro'
 
-gem 'sorcery'
+# gem 'sorcery'
 
 gem 'foreman'
 
