@@ -1,13 +1,21 @@
-<div id="new-email">
-  <%= form_for @contact do |f| %>
-    <div class="form-field">
-      <%= f.text_field :email, placeholder: "Your email adress..." %>
-    </div>
-    <div class="form-field" id="text-area">
-      <%= f.text_area :body, placeholder: "Write your message here..." %>
-    </div>
-    <div class="form-submit">
-      <%= f.submit "Send"%>
-    </div>
-  <% end %>
+<div id="contact">
+
+  <div class="page-title">
+    <h1 id="contact-title">Contact Us</h1>
+  </div>
+
+  <div id="new-email">
+    <%= form_for @contact do |f| %>
+      <div class="form-field">
+        <%= f.text_field :email, placeholder: "Your email..." %>
+      </div>
+      <div class="form-field" id="text-area">
+        <%= f.text_area :body, placeholder: "Write your message here..." %>
+      </div>
+      <div class="form-submit">
+        <%= f.submit "Send"%>
+      </div>
+    <% end %>
+  </div>
+
 </div>
