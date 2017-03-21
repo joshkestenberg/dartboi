@@ -106,7 +106,7 @@ body {
   /*background and nav bar*/
   .main {
     background-color: rgb(0, 0, 0);
-    /*background-image: url('Roofs_dartboi.jpg');
+    /*background-image: image-url('Roofs_dartboi.jpg');
     background-position: 50% 50%;
     background-size: 10px 10px;*/
     height: 100%;
@@ -248,7 +248,7 @@ body {
   /*background and nav bar*/
   .main {
     background-color: rgb(0, 0, 0);
-    /*background-image: url('Roofs_dartboi.jpg');
+    /*background-image: image-url('Roofs_dartboi.jpg');
     background-position: 50% 50%;
     background-size: 10px 10px;*/
     height: 100%;
@@ -390,7 +390,7 @@ body {
 
   /*background and nav bar*/
   .main {
-    background-image: url('Roofs_dartboi.jpg');
+    background-image: image-url('Roofs_dartboi.jpg');
     background-position: 50% 50%;
     background-size: 1024px 1366px;
     height: 100%;
@@ -543,7 +543,7 @@ body {
 
   /*background and nav bar*/
   .main {
-    background-image: url('Roofs_dartboi.jpg');
+    background-image: image-url('Roofs_dartboi.jpg');
     background-position: 50% 50%;
     background-size: 1024px 1366px;
     height: 100%;
@@ -698,7 +698,7 @@ body {
 
   /*background and nav bar*/
   .main {
-    background-image: url('Roofs_dartboi.jpg');
+    background-image: image-url('Roofs_dartboi.jpg');
     background-position: 50% 50%;
     background-size: 1281px 1400px;
     height: 100%;
@@ -852,7 +852,7 @@ body {
 
   /*background and nav bar*/
   .main {
-    background-image: url('Roofs_dartboi.jpg');
+    background-image: image-url('Roofs_dartboi.jpg');
     background-position: 50% 50%;
     background-size: 1367px 1400px;
     height: 100%;
@@ -1009,7 +1009,7 @@ body {
 
   /*background and nav bar*/
   .main {
-    background-image: url('Roofs_dartboi.jpg');
+    background-image: image-url('Roofs_dartboi.jpg');
     background-position: 50% 50%;
     background-size: 2400px 1800px;
     height: 100%;
