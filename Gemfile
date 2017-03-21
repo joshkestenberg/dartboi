@@ -11,9 +11,9 @@ gem 'rails_real_favicon'
 
 gem 'figaro'
 
-gem 'foreman'
+# gem 'foreman'
 
-gem 'crono'
+# gem 'crono'
 
 gem 'normalize-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
