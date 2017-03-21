@@ -7,6 +7,8 @@ end
 
 # gem 'daemons'
 
+gem 'rails_real_favicon'
+
 gem 'figaro'
 
 gem 'foreman'
