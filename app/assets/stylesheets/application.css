@@ -78,10 +78,6 @@ textarea {
 
 /*general*/
 
-.hover{
-  -webkit-text-stroke: 0.8px hotpink;
-}
-
 body {
   overflow-x: hidden;
 }
@@ -139,6 +135,10 @@ body {
     color: white;
     font-weight: bold;
     font-size: 15px;
+  }
+
+  .hover{
+    -webkit-text-stroke: 0.8px hotpink;
   }
 
 /*front page and show listings*/
@@ -281,6 +281,10 @@ body {
     font-size: 15px;
   }
 
+  .hover{
+    -webkit-text-stroke: 0.8px hotpink;
+  }
+
   #news{
     width: 80%;
     position: relative;
@@ -419,6 +423,10 @@ body {
     color: white;
     font-weight: bold;
     font-size: 24px;
+  }
+
+  .hover{
+    -webkit-text-stroke: 0.8px hotpink;
   }
 
   #news{
@@ -570,6 +578,10 @@ body {
     color: white;
     font-weight: bold;
     font-size: 24px;
+  }
+
+  .hover{
+    -webkit-text-stroke: 0.8px hotpink;
   }
 
   #news{
@@ -725,6 +737,10 @@ body {
     font-size: 24px;
   }
 
+  .hover{
+    -webkit-text-stroke: 0.8px hotpink;
+  }
+
   #news{
     width: 70%;
     position: relative;
@@ -875,6 +891,10 @@ body {
     color: white;
     font-weight: bold;
     font-size: 26px;
+  }
+
+  .hover{
+    -webkit-text-stroke: 0.8px hotpink;
   }
 
   #news{
@@ -1030,6 +1050,10 @@ body {
     color: white;
     font-weight: bold;
     font-size: 30px;
+  }
+
+  .hover{
+    -webkit-text-stroke: 0.8px hotpink;
   }
 
   #news{
