@@ -31,7 +31,7 @@ class ShowsController < ApplicationController
   private
 
   def show_params
-    params.require(:show).permit(:date, :city, :location, :price, :url, :image_url, :venue_url)
+    params.require(:show).permit(:date, :city, :location, :price, :event_url, :image_url, :venue_url)
   end
 
 end
