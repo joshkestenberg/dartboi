@@ -102,4 +102,5 @@ Rails.application.configure do
 
   config.serve_static_assets = true
   config.assets.compile = true
+  config.assets.js_compressor = Uglifier.new(mangle: false)
 end
