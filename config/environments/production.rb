@@ -69,7 +69,7 @@ Rails.application.configure do
     user_name: ENV["EMAIL"],
     password: ENV["PASSWORD"]
   }
-}
+
 
   config.action_mailer.perform_caching = false
 
