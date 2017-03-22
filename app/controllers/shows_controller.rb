@@ -1,7 +1,11 @@
 class ShowsController < ApplicationController
 
   def index
-    @shows = Show.all.order("date ASC")
+    if Show.any?
+      @shows = Show.all.order("date ASC")
+    else
+      redirect_to root_path
+    end
   end
 
   def new

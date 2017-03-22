@@ -78,6 +78,10 @@ textarea {
 
 /*general*/
 
+nav-link a:hover{
+  -webkit-text-stroke: 0.8px hotpink;
+}
+
 body {
   overflow-x: hidden;
 }
