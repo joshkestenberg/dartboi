@@ -193,13 +193,13 @@ body {
     font-size: 15px;
     text-align: center;
   }
-  .show-description, .show-location, .show-price {
+  .show-city, .show-location, .show-price {
     font-size: 20px;
     font-family: 'Bree Serif', serif;
     text-align: center;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-description {
+  .show-city {
     display: none;
   }
   .date{
@@ -337,13 +337,13 @@ body {
     font-size: 15px;
     text-align: center;
   }
-  .show-description, .show-location, .show-price {
+  .show-city, .show-location, .show-price {
     font-size: 20px;
     font-family: 'Bree Serif', serif;
     text-align: center;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-description {
+  .show-city {
     display: none;
   }
   .date{
@@ -478,12 +478,12 @@ body {
     font-weight: bold;
     font-size: 22px;
   }
-  .show-description, .show-location, .show-price {
+  .show-city, .show-location, .show-price {
     font-size: 28px;
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-description {
+  .show-city {
     display: none;
   }
   .date{
@@ -631,12 +631,12 @@ body {
     font-weight: bold;
     font-size: 22px;
   }
-  .show-description, .show-location, .show-price {
+  .show-city, .show-location, .show-price {
     font-size: 28px;
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-description {
+  .show-city {
     display: none;
   }
   .date{
@@ -786,12 +786,12 @@ body {
     font-weight: bold;
     font-size: 22px;
   }
-  .show-description, .show-location, .show-price {
+  .show-city, .show-location, .show-price {
     font-size: 28px;
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-description {
+  .show-city {
     display: none;
   }
   .date{
@@ -943,12 +943,12 @@ body {
     font-weight: bold;
     font-size: 22px;
   }
-  .show-description, .show-location, .show-price {
+  .show-city, .show-location, .show-price {
     font-size: 28px;
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-description {
+  .show-city {
     display: none;
   }
   .date{
@@ -1100,12 +1100,12 @@ body {
     font-weight: bold;
     font-size: 22px;
   }
-  .show-description, .show-location, .show-price {
+  .show-city, .show-location, .show-price {
     font-size: 28px;
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-description {
+  .show-city {
     display: none;
   }
   .date{

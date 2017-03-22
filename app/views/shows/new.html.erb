@@ -1,6 +1,9 @@
   <div id="new-show-form">
     <%=form_for @show do |f| %>
       <div class="form-field">
+        <%= f.text_field :city, placeholder: "city" %>
+      </div>
+      <div class="form-field">
         <%= f.date_field :date %>
       </div>
       <div class="form-field">
