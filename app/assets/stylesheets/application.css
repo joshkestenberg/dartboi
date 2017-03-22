@@ -199,9 +199,7 @@ body {
     text-align: center;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-city {
-    display: none;
-  }
+
   .date{
     text-align: center;
     font-size: 25px;
@@ -343,9 +341,7 @@ body {
     text-align: center;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-city {
-    display: none;
-  }
+
   .date{
     text-align: center;
     font-size: 25px;
@@ -483,9 +479,7 @@ body {
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-city {
-    display: none;
-  }
+
   .date{
     font-size: 35px;
     font-family: 'Bree Serif', serif;
@@ -636,9 +630,7 @@ body {
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-city {
-    display: none;
-  }
+
   .date{
     font-size: 35px;
     font-family: 'Bree Serif', serif;
@@ -791,9 +783,7 @@ body {
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-city {
-    display: none;
-  }
+
   .date{
     font-size: 35px;
     font-family: 'Bree Serif', serif;
@@ -948,9 +938,7 @@ body {
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-city {
-    display: none;
-  }
+
   .date{
     font-size: 35px;
     font-family: 'Bree Serif', serif;
@@ -1105,9 +1093,7 @@ body {
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
   }
-  .show-city {
-    display: none;
-  }
+
   .date{
     font-size: 35px;
     font-family: 'Bree Serif', serif;
