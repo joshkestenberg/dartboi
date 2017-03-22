@@ -78,7 +78,7 @@ textarea {
 
 /*general*/
 
-nav-link a:hover{
+.hover{
   -webkit-text-stroke: 0.8px hotpink;
 }
 
