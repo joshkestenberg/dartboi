@@ -14,3 +14,8 @@
 //= require jquery_ujs
 // require turbolinks
 //= require_tree .
+$(function(){
+  $('.nav-link a').hover(function(){
+    $(this).toggleClass('hover');
+  });
+});
