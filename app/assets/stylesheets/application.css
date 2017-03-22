@@ -137,7 +137,7 @@ body {
     font-size: 15px;
   }
 
-  .hover{
+  .nav-link a:hover{
     -webkit-text-stroke: 0.8px hotpink;
   }
 
@@ -281,7 +281,7 @@ body {
     font-size: 15px;
   }
 
-  .hover{
+  .nav-link a:hover{
     -webkit-text-stroke: 0.8px hotpink;
   }
 
@@ -425,7 +425,7 @@ body {
     font-size: 24px;
   }
 
-  .hover{
+  .nav-link a:hover{
     -webkit-text-stroke: 0.8px hotpink;
   }
 
@@ -580,7 +580,7 @@ body {
     font-size: 24px;
   }
 
-  .hover{
+  .nav-link a:hover{
     -webkit-text-stroke: 0.8px hotpink;
   }
 
@@ -737,7 +737,7 @@ body {
     font-size: 24px;
   }
 
-  .hover{
+  .nav-link a:hover{
     -webkit-text-stroke: 0.8px hotpink;
   }
 
@@ -893,7 +893,7 @@ body {
     font-size: 26px;
   }
 
-  .hover{
+  .nav-link a:hover{
     -webkit-text-stroke: 0.8px hotpink;
   }
 
@@ -1052,7 +1052,7 @@ body {
     font-size: 30px;
   }
 
-  .hover{
+  .nav-link a:hover{
     -webkit-text-stroke: 0.8px hotpink;
   }
 
