@@ -16,6 +16,6 @@
 //= require_tree .
 $(function(){
   $('.nav-link a').hover(function(){
-    $(this).toggleClass('.hover');
+    $(this).toggleClass('hover');
   });
 });
