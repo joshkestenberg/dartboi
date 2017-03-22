@@ -55,14 +55,20 @@ Rails.application.configure do
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "dartboi_#{Rails.env}"
+  config.action_mailer.default_url_options = { :host => 'www.dartboi.com' }
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default :charset => "utf-8"
   config.action_mailer.smtp_settings = {
-    :address              => "smtp.gmail.com",
-    :port                 => 587,
-    :user_name            => EMAIL,
-    :password             => PASSWORD,
-    :authentication       => "plain",
-    :enable_starttls_auto => true
+    address: "smtp.gmail.com",
+    port: 587,
+    domain: "www.dartboi.com",
+    authentication: "plain",
+    enable_starttls_auto: true,
+    user_name: ENV["EMAIL"],
+    password: ENV["PASSWORD"]
+  }
 }
 
   config.action_mailer.perform_caching = false
