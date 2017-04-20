@@ -188,6 +188,11 @@ body {
     bottom: 50px;
     display: none;
   }
+
+  .show-listing p{
+    text-align: center;
+  }
+
   .show-link, .show-link a{
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
@@ -334,6 +339,11 @@ body {
     bottom: 50px;
     display: none;
   }
+
+  .show-listing p{
+    text-align: center;
+  }
+
   .show-link, .show-link a{
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
@@ -476,6 +486,10 @@ body {
     position: absolute;
     right: 20px;
     bottom: 20px;
+  }
+
+  .show-listing p{
+    text-align: center;
   }
 
   .show-link, .show-link a{
