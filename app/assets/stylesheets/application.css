@@ -624,6 +624,11 @@ body {
     margin-bottom: 20px;
     position: relative;
   }
+
+  .show-listing p{
+    width: 60%;
+  }
+
   .show-listing img{
     width: 150px;
     border: white 2px solid;
@@ -790,6 +795,10 @@ body {
     bottom: 20px;
   }
 
+  .show-listing p{
+    width: 60%;
+  }
+
   .show-link, .show-link a{
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
@@ -949,6 +958,10 @@ body {
     bottom: 20px;
   }
 
+  .show-listing p{
+    width: 60%;
+  }
+
   .show-link, .show-link a{
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 0.8px lightgreen;
@@ -1106,6 +1119,10 @@ body {
     position: absolute;
     right: 20px;
     bottom: 20px;
+  }
+
+  .show-listing p{
+    width: 60%;
   }
 
   .show-link, .show-link a{
